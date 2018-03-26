@@ -33,16 +33,6 @@ public class LoadTestData {
 		}
 		
 		return dataList;
-		
-		/*for(int i=0; i<sh.getPhysicalNumberOfRows(); i++)
-		{
-			for(int j=0; j<sh.getRow(i).getPhysicalNumberOfCells(); j++)
-			{	
-				System.out.print(sh.getRow(i).getCell(j).getStringCellValue());
-				System.out.print("		");
-			}
-			System.out.println();
-		}*/		
 			
 	}
 	

@@ -39,12 +39,15 @@ public class MasterPage {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 	}
-
+	
+	// Method to send input values to identified web element
 	public boolean sendKeys(String field)
 	{
 		driver.findElement(By.xpath(field)).sendKeys(dataList.get(1));
 		return true;
 	}
+	
+	// Method to click on button web element
 	public boolean click(String field)
 	{
 		driver.findElement(By.xpath(field)).click();

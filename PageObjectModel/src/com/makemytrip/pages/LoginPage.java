@@ -13,8 +13,8 @@ public class LoginPage extends MasterPage {
 	public LoadProperties lp;
 	
 	public LoginPage() throws IOException {
+		//Calling constructor of super class
 		super();
-		// TODO Auto-generated constructor stub
 		lp = new LoadProperties(propertyFileName);
 	}
 
@@ -25,6 +25,8 @@ public class LoginPage extends MasterPage {
 		sendKeys(lp.prop.getProperty("txt_username"));
 		/*sendKeys(lp.prop.getProperty("txt_password"));
 		click(lp.prop.getProperty("button_login"));*/
+		
+		System.out.println("Username entered");
 	}
 	
 }

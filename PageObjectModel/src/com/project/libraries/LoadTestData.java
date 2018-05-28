@@ -1,4 +1,4 @@
-package com.makemytrip.libraries;
+package com.project.libraries;
 
 import java.io.FileInputStream;
 import java.io.IOException;

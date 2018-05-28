@@ -1,8 +1,8 @@
-package com.makemytrip.testcases;
+package com.project.testcases;
 
 import java.io.IOException;
 
-import com.makemytrip.pages.LoginPage;
+import com.project.pages.LoginPage;
 
 public class LoginTestCase {
 

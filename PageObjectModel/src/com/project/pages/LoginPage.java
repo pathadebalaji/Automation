@@ -1,9 +1,9 @@
-package com.makemytrip.pages;
+package com.project.pages;
 
 import java.io.IOException;
 
-import com.makemytrip.libraries.LoadProperties;
-import com.makemytrip.masterpage.MasterPage;
+import com.project.libraries.LoadProperties;
+import com.project.masterpage.MasterPage;
 
 public class LoginPage extends MasterPage {
 

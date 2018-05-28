@@ -1,4 +1,4 @@
-package com.makemytrip.masterpage;
+package com.project.masterpage;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.makemytrip.libraries.LoadTestData;
+import com.project.libraries.LoadTestData;
 
 public class MasterPage {
 
